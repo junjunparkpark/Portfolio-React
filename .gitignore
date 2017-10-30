@@ -14,3 +14,5 @@ pids
 *.pid
 *.seed
 *.rdb
+
+client/dist/bundle.js
