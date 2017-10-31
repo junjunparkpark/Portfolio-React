@@ -29,7 +29,12 @@
     "express": "^4.16.2",
     "material-ui": "^0.19.4",
     "react": "^16.0.0",
-    "react-dom": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.8",
+    "sass-loader": "^6.0.6",
     "webpack": "^3.8.1"
   }
 }
