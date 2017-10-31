@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Nav from './Components/Navigation/Nav.jsx';
+import 'bootstrap';
+import 'jquery';
 
 const Main = () => {
   return (
