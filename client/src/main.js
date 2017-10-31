@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Nav from './Components/Navigation/Nav.jsx';
 
 const Main = () => {
   return (
     <div>
-      Hello World!
+      <Nav />
     </div>
   );
 };
