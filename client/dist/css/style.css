@@ -379,9 +379,24 @@
 /* ========================================= */
 /* $APPLICATIONS SECTION                           */                          
 /* ========================================= */
+@media (max-width: 767px) {
+	.works {
+			width: 250px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.works {
+			width: 610px;
+			margin: auto;
+	}
+}
 
 
 .works {
+	overflow: hidden;
+  height: 1400px;
+  transition: height 250ms ease-out;
   position: relative;
   padding: 0;
   list-style: none;
@@ -778,6 +793,8 @@
 		        border-radius: 50%;
 	}
 
+
+
 /* ========================================= */
 /* $PORTFOLIO SECTION                        */                             
 /* ========================================= */
@@ -926,124 +943,6 @@
 			padding-bottom: 75%;
 		}
 
-/* ========================================= */
-/* $NEWS SECTION                             */                               
-/* ========================================= */	
-
-#news { padding-bottom: 160px; }
-
-@media (max-width: 991px)
-{
-	#news { padding-bottom: 120px; }
-}
-
-@media (max-width: 767px)
-{
-	#news { padding-bottom: 80px; }
-}
-
-@media (min-width: 768px)
-{
-	.post { width: 80%; }
-}
-
-	.post
-	{
-		padding-bottom: 126px;
-		position: relative;
-		margin: 0 auto;
-	}
-
-	@media (max-width: 991px)
-	{
-		.post:last-child { padding-bottom: 120px; }
-	}
-
-	@media (max-width: 767px)
-	{
-		.post:last-child { padding-bottom: 80px; }
-	}
-
-		.post::after
-		{
-			content: ' ';
-			display: block;
-			border-radius: 3px;
-			width: 6px;
-			height: 6px;
-
-			position: absolute;
-			left: 50%;
-			bottom: 60px;
-			margin-left: -23px;
-
-			background-color: transparent;
-			box-shadow: 6px 0 0 0, 20px 0 0 0, 34px 0 0 0;
-		}
-
-		.post:last-child::after { content: ''; display: none; }
-
-		.post__title
-		{
-			margin-bottom: 15px;
-		}
-
-		.post__meta
-		{
-			margin-bottom: 30px;
-		}
-
-			.post__meta > span
-			{
-
-			}
-
-			.post__meta > span + span
-			{
-				margin-left: 40px;
-			}
-
-				.post__meta .fa
-				{
-					margin-right: 10px;
-				}
-
-		.post__description
-		{
-			margin-bottom: 30px;
-		}
-
-			.post__description > p
-			{
-
-			}
-
-		.post__footer
-		{
-			
-		}
-
-			.post__footer > a
-			{
-			}
-
-/* ========================================= */
-/* $TESTIMONIALS SECTION                     */                               
-/* ========================================= */	
-
-.testimonial-header a
-{
-	border: 2px solid;
-	line-height: 36px;
-}
-
-.quovolve-nav
-{
-	position: fixed;
-	top: -9999px;
-	left: -9999px;
-	z-index: -100;
-}
 
 /* ========================================= */
 /* $CONTACT SECTION                          */                           
@@ -1094,3 +993,14 @@
 		{
 			input[type="submit"] { margin-top: 30px; }
 		}
+
+
+
+.section-inner {
+	overflow: hidden;
+	padding-top: 120px;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+	background-size: cover;
+	background-color: #fff;
+}
