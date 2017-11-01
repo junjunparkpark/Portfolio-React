@@ -7,10 +7,14 @@ const Home = () => {
     marginTop: '-70px'
   };
 
+  var backgroundGradient = {
+    backgroundImage: 'url(http://www.ritagyam.com/images/background.jpg)'
+  };
+
   return (
     <div>
       <section id="preloader"></section>
-      <section id="home" className="text-center no-overflow gradient">
+      <section id="home" className="text-center bg-image no-overflow" style={backgroundGradient} data-stellar-background-ratio="0.5">
 
         <div className="container text-center">
           <div className="fullscreen inline-block">
