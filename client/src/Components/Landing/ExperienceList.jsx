@@ -14,7 +14,6 @@ class ExperienceList extends React.Component {
 
     <section id="experience" className="section">
       <div className="section-inner">
-
         <div className="container">
 
           <header className="heading">
@@ -42,63 +41,69 @@ class ExperienceList extends React.Component {
             </div>
           </div>
 
-    <div className="experience-item">
-      <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
-      <div className="experience-item-inner wow bounceInRight">
-        <div className="date">Stanford University</div>
-        <h3>June - October, 2016</h3>
-        <p>Website management and integration of technology into Stanford's learning management system. </p>
-
-      </div>
-    </div>
-    <div className="experience-item">
-      <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
-      <div className="experience-item-inner wow bounceInRight">
-        <div className="date">Part-time Mentor at Codify Academy</div>
-        <h3>December 2016 - May, 2017</h3>
-        <p>Collaborate with Instructors and actively engage with students to deliver a fully effective className in teaching Front End Development.</p>
-
-      </div>
-    </div>
-    <div className="experience-item">
-      <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
-      <div className="experience-item-inner wow bounceInLeft">
-        <div className="date">Web developer at Design Science Inc.</div>
-        <h3>2015</h3>
-        <p>
-          Developed and Designed company's new website,
-			    Created responsive and intuitive UI
-			    </p>
-              </div>
-            </div>
-            <div className="experience-item">
-              <div className="icon-b wow bounceIn"><i className="fa fa-mortar-board"></i></div>
-              <div className="experience-item-inner wow bounceInRight">
-                <div className="date">California State University, Long Beach</div>
-                <h3>2014 - 2016</h3>
-                <p>Master of Science in Computer Science</p>
-              </div>
-            </div>
-            <div className="experience-item">
-              <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
-              <div className="experience-item-inner wow bounceInLeft">
-                <div className="date">Freelance Web developer</div>
-                <h3>2015 - 2016</h3>
-                <p>Nomad Style & Pekok Within</p>
-              </div>
-            </div>
-            <div className="experience-item">
-              <div className="icon-b wow bounceIn"><i className="fa fa-mortar-board"></i></div>
-              <div className="experience-item-inner wow bounceInRight">
-                <div className="date">RGPV University</div>
-                <h3>2010 - 2014</h3>
-                <p>Bachelor of Engineering in Computer Science</p>
-              </div>
+          <div className="experience-item">
+            <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
+            <div className="experience-item-inner wow bounceInRight">
+              <div className="date">Stanford University</div>
+              <h3>June - October, 2016</h3>
+              <p>Website management and integration of technology into Stanford's learning management system. </p>
             </div>
           </div>
 
-        </div>
+          <div className="experience-item">
+            <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
+            <div className="experience-item-inner wow bounceInRight">
+              <div className="date">Part-time Mentor at Codify Academy</div>
+              <h3>December 2016 - May, 2017</h3>
+              <p>Collaborate with Instructors and actively engage with students to deliver a fully effective className in teaching Front End Development.</p>
+            </div>
+          </div>
 
+          <div className="experience-item">
+            <div className="icon-b wow bounceIn"><i className="fa fa-mortar-board"></i></div>
+            <div className="experience-item-inner wow bounceInLeft">
+              <div className="date">Codify Academy</div>
+              <h3>Nov 2016 - Apr 2017</h3>
+              <p>
+                Web Development coding bootcamp in San Francisco, California.
+                Learned front end fundamentals: HTML, CSS, Javascript, JQuery, Bootstrap, Git, and AngularJS.
+              </p>
+            </div>
+          </div>
+
+          <div className="experience-item">
+            <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
+            <div className="experience-item-inner wow bounceInRight">
+              <div className="date">BitSigma, LLC</div>
+              <h3>Jun 2014 - Jan 2015</h3>
+              <p>
+                Bitcoin mining startup in Denver, Colorado.
+                Implemented a Bitcoin mining environment by converting office space into a datacenter.
+                Outputting ~25 Terahashes per second generating 1-2 Bitcoins per day at the time. 
+              </p>
+            </div>
+          </div>
+
+          <div className="experience-item">
+            <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
+            <div className="experience-item-inner wow bounceInLeft">
+              <div className="date">Financial Representative</div>
+              <h3>Apr 2014 - Jun 2014</h3>
+              <p>Northwestern Mutual</p>
+            </div>
+          </div>
+          
+          <div className="experience-item">
+            <div className="icon-b wow bounceIn"><i className="fa fa-mortar-board"></i></div>
+            <div className="experience-item-inner wow bounceInRight">
+              <div className="date">University of Denver</div>
+              <h3>2011 - 2015</h3>
+              <p>Bachelor of Science in Finance and Business Administration (Incomplete) </p>
+            </div>
+          </div>
+
+          </div>
+        </div>
       </div>
     </section>
 
