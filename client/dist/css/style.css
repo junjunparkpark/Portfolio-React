@@ -40,6 +40,8 @@
 											rgba(20,20,20, .7), 
 											rgba(20,20,20, .7)),
 											url(../media/images/background.jpg);
+	background-repeat:no-repeat;
+  background-size:cover;
 	}
 
 @media (min-width: 992px) 

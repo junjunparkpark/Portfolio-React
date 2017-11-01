@@ -9,6 +9,7 @@ const Home = () => {
 
   var backgroundGradient = {
     backgroundImage: 'url(http://www.ritagyam.com/images/background.jpg)',
+    
   };
 
   var h1Style = {
