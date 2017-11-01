@@ -395,7 +395,6 @@
 
 .works {
 	overflow: hidden;
-  height: 1400px;
   transition: height 250ms ease-out;
   position: relative;
   padding: 0;
