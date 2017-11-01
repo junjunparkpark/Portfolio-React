@@ -4,12 +4,18 @@ class ExperienceList extends React.Component {
   constructor(props) {
     super();
     this.state = {
-      experiences: [],
+      experiences: [{}, {}, {}, {}, {}, {}],
       left: true
     }
+
+    this.changeRenderingSide.bind(this);
   }
 
-
+  changeRenderingSide() {
+    this.setState({
+      left: !this.state.left
+    });
+  }
 
   render() {
     return (
@@ -25,7 +31,12 @@ class ExperienceList extends React.Component {
             <div className="separator"></div>
           </header>
 
-
+          {
+            this.state.experiences.map(experience => {
+              <ExperienceListItem left={this.state.left}/>
+              this.changeRenderingSide();
+            })
+          }
         </div>
       </div>
     </section>
