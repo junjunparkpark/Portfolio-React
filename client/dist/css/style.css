@@ -377,61 +377,93 @@
 .info-list > li:last-child { border-bottom: 0; }
 
 /* ========================================= */
-/* $HOBBIES SECTION                          */                           
+/* $APPLICATIONS SECTION                           */                          
 /* ========================================= */
 
-.hobbies-list > li 
-{
-	position: relative;
-	line-height: 1;
-	border: 3px solid;
-	overflow: visible;
-	cursor: pointer;
-	z-index: 1;
+
+.works {
+  position: relative;
+  padding: 0;
+  list-style: none;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 250px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 1;
 }
 
-.hobbies-list > li:hover + li { z-index: 0 }
+.works .works-item {
+  position: relative;
+  width: 290px;
+  margin: 0 0 30px;
+  transition: 0.3s;
+}
 
-	.hobby-description
-	{
-		position: absolute;
-		top: -60px;
-		right: -60px;
-		bottom: -60px;
-		left: -60px;
-		text-align: left;
-		cursor: auto;
-		text-transform: none;
-		padding: 40px;
-		z-index: 10;
-		opacity: 0;
-		visibility: hidden;
-		-webkit-transform: translateX(-20%);
-		    -ms-transform: translateX(-20%);
-		        transform: translateX(-20%);
-		-webkit-transition: all 0.35s ease-in-out;
-		        transition: all 0.35s ease-in-out;
-	}
+.works .works-item .works-item-link {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  width: 250px;
+  height: 250px;
+  margin: auto;
+  text-decoration: none;
+  z-index: 5;
+  color: #000000;
+}
 
-	.hobbies-list > li:hover .hobby-description
-	{
-		opacity: 1;
-		visibility: visible;
-		-webkit-transform: translateX(0%);
-		    -ms-transform: translateX(0%);
-		        transform: translateX(0%);
-		-webkit-transition: all 0.35s ease-in-out;
-		        transition: all 0.35s ease-in-out;
-	}
+.works .works-item .works-item-link .works-item-thumb {
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  transition: 0.3s;
+  box-shadow: 0 0 10px 0 rgba(1,1,1,.1);
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
 
-	.hobbies-list > li > .inline-block
-	{
-		position: relative;
-		top: 50%;
-		-webkit-transform: translateY(-50%);
-		    -ms-transform: translateY(-50%);
-		        transform: translateY(-50%);
-	}
+.works .works-item .works-item-link:before {
+  content: 'More';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: grey;
+  transition: 0.3s;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+  text-align: center;
+}
+
+.works .works-item .works-item-link img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  transition: 0.3s;
+}
+
+.works .works-item:hover .works-item-link .works-item-thumb {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+.works .works-item:hover .works-item-link:before {
+  -webkit-transform: rotateY(0deg);
+          transform: rotateY(0deg);
+}
+
 
 /* ========================================= */
 /* $RESUME SECTION                           */                          

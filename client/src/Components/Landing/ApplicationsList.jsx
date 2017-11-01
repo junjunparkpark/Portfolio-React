@@ -1,11 +1,12 @@
 import React from 'react';
+import ApplicationsListItem from './ApplicationsListItem.jsx';
 
 class ApplicationsList extends React.Component {
   constructor(props) {
     super();
 
     this.state = {
-      applications: []
+      applications: [{ h: 'h' }, { h: 'h' }, { h: 'h' }, { h: 'h' }, { h: 'h' }, { h: 'h' }]
     }
   }
 
