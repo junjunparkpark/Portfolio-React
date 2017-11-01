@@ -1798,9 +1798,11 @@ html[style*='margin-right'] .main-nav {
   -webkit-transform: rotateY(0deg);
           transform: rotateY(0deg);
 }
+  /* content: 'Click for More'; */
 
 .works .works-item .works-item-link:before {
-  content: 'More';
+  content: '';
+  margin: auto;
   position: absolute;
   left: 0;
   top: 0;
@@ -1814,6 +1816,7 @@ html[style*='margin-right'] .main-nav {
   -webkit-transform: rotateY(180deg);
           transform: rotateY(180deg);
   text-align: center;
+
 }
 
 .works .works-item .works-item-link img {
