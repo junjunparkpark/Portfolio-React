@@ -18,7 +18,7 @@ const Home = () => {
               <div className="table-cell v-middle">
 
                 <div className="lg-rounded-box home__image-box">
-                    <img src="media/images/junpark.jpg" className="img-responsive" alt="#"/>
+                  <img src="https://lh3.googleusercontent.com/-L-zBolXGOvU/AAAAAAAAAAI/AAAAAAAAP_Q/ahJepmwLhQ0/s120-p-rw-no/photo.jpg" className="img-responsive" alt="#"/>
                 </div>
 
                 <h1 className="heavy text-uppercase home__name">jun park</h1>
