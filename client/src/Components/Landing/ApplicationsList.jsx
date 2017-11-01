@@ -24,7 +24,7 @@ class ApplicationsList extends React.Component {
             </ul>
 
             <ul className="works">
-              <li data-groups="[&quot;web&quot;]" className="works-item"><a href="#works-item-details-1" className="works-item-link"><span className="works-item-thumb"><img src="images/lvrt1.png" width="250" height="250" alt=""/></span></a>
+              <li  className="works-item"><a href="#works-item-details-1" className="works-item-link"><span className="works-item-thumb"><img src="images/lvrt1.png" width="250" height="250" alt=""/></span></a>
                 <div id="works-item-details-1" className="popup mfp-hide">
                   <figure><img src="images/lvrt1.png" width="750" height="500" alt="" /></figure>
                     <div className="popup-inner">
@@ -34,7 +34,7 @@ class ApplicationsList extends React.Component {
                     </div>
               </div>
             </li>
-                <li data-groups="[&quot;web&quot;]" className="works-item"><a href="#works-item-details-2" className="works-item-link"><span className="works-item-thumb"><img src="images/flat.png" width="250" height="250" alt=""/></span></a>
+                <li  className="works-item"><a href="#works-item-details-2" className="works-item-link"><span className="works-item-thumb"><img src="images/flat.png" width="250" height="250" alt=""/></span></a>
                   <div id="works-item-details-2" className="popup mfp-hide">
                     <figure><img src="images/flat.png" width="750" height="500" alt=""/></figure>
                       <div className="popup-inner">
@@ -44,7 +44,7 @@ class ApplicationsList extends React.Component {
                       </div>
               </div>
             </li>
-                  <li data-groups="[&quot;web&quot;]" className="works-item works-item-t"><a href="#works-item-details-4" className="works-item-link"><span className="works-item-thumb"><img src="images/visual.png" width="250" height="250" alt=""/></span></a>
+                  <li  className="works-item works-item-t"><a href="#works-item-details-4" className="works-item-link"><span className="works-item-thumb"><img src="images/visual.png" width="250" height="250" alt=""/></span></a>
                     <div id="works-item-details-4" className="popup mfp-hide">
                       <figure><img src="images/visual.png" width="750" height="500" alt=""/></figure>
                         <div className="popup-inner">
@@ -54,7 +54,7 @@ class ApplicationsList extends React.Component {
                         </div>
               </div>
             </li>
-                    <li data-groups="[&quot;illustration&quot;]" className="works-item"><a href="#works-item-details-7" className="works-item-link"><span className="works-item-thumb"><img src="images/money1.gif" width="250" height="250" alt=""/></span></a>
+                    <li  className="works-item"><a href="#works-item-details-7" className="works-item-link"><span className="works-item-thumb"><img src="images/money1.gif" width="250" height="250" alt=""/></span></a>
                       <div id="works-item-details-7" className="popup mfp-hide">
                         <figure><img src="images/budgetApp.png" width="750" height="500" alt=""/></figure>
                           <div className="popup-inner">
@@ -64,7 +64,7 @@ class ApplicationsList extends React.Component {
                           </div>
               </div>
             </li>
-                      <li data-groups="[&quot;illustration&quot;]" className="works-item"><a href="#works-item-details-8" className="works-item-link"><span className="works-item-thumb"><img src="images/calendar1.gif" width="250" height="250" alt=""/></span></a>
+                      <li  className="works-item"><a href="#works-item-details-8" className="works-item-link"><span className="works-item-thumb"><img src="images/calendar1.gif" width="250" height="250" alt=""/></span></a>
                         <div id="works-item-details-8" className="popup mfp-hide">
                           <figure><img src="images/calendarly1.png" width="750" height="500" alt=""/></figure>
                             <div className="popup-inner">
@@ -74,23 +74,23 @@ class ApplicationsList extends React.Component {
                             </div>
               </div>
             </li>
-                        <li data-groups="[&quot;illustration&quot;]" className="works-item"><a href="#works-item-details-9" className="works-item-link"><span className="works-item-thumb"><img src="images/clock4.gif" width="250" height="250" alt=""/></span></a>
+                        <li className="works-item"><a href="#works-item-details-9" className="works-item-link"><span className="works-item-thumb"><img src="images/clock4.gif" width="250" height="250" alt=""/></span></a>
                           <div id="works-item-details-9" className="popup mfp-hide">
                             <figure><img src="images/digitalClock.png" width="750" height="500" alt=""/></figure>
                               <div className="popup-inner">
                                 <h3>Digital Clock</h3>
-                                <p>A simple responsive digital clock made with <3 Javascript.</p>
+                                <p>A simple responsive digital clock made with Javascript.</p>
                                 <div className="center"><a href="https://ritagya.github.io/Digital-Clock/" target="_blank" className="btn">View site</a></div>
                               </div>
               </div>
             </li>
-          <li data-groups="[&quot;illustration&quot;]" className="works-item works-item-w"><a href="#works-item-details-3" className="works-item-link"><span className="works-item-thumb"><img src="images/pig.png" width="250" height="250" alt=""/></span></a>
+          <li  className="works-item works-item-w"><a href="#works-item-details-3" className="works-item-link"><span className="works-item-thumb"><img src="images/pig.png" width="250" height="250" alt=""/></span></a>
             <div id="works-item-details-3" className="popup mfp-hide">
               <figure><img src="images/pig-game.png" width="750" height="500" alt=""/></figure>
                 <div className="popup-inner">
                   <h3>The Pig Game</h3>
                   <p>GAME RULES:
-            <ul style="text-align : left">
+            <ul >
                       <li>The game has 2 players, playing in rounds</li>
                       <li>In each turn, a player rolls a dice as many times as he whishes. Each result get added to his ROUND score</li>
                       <li>BUT, if the player rolls a 1, all his ROUND score gets lost. After that, it's the next player's turn</li>
@@ -103,7 +103,7 @@ class ApplicationsList extends React.Component {
               </div>
 
             </li>
-          <li data-groups="[&quot;illustration&quot;]" className="works-item"><a href="#works-item-details-5" className="works-item-link"><span className="works-item-thumb"><img src="images/chinese.png" width="250" height="250" alt=""/></span></a>
+          <li  className="works-item"><a href="#works-item-details-5" className="works-item-link"><span className="works-item-thumb"><img src="images/chinese.png" width="250" height="250" alt=""/></span></a>
             <div id="works-item-details-5" className="popup mfp-hide">
               <figure><img src="images/chinesehoro.png" width="750" height="500" alt=""/></figure>
                 <div className="popup-inner">
@@ -114,7 +114,7 @@ class ApplicationsList extends React.Component {
               </div>
             </li>
 
-          <li data-groups="[&quot;illustration&quot;]" className="works-item"><a href="#works-item-details-6" className="works-item-link"><span className="works-item-thumb"><img src="images/shinchan1.png" width="250" height="250" alt=""/></span></a>
+          <li  className="works-item"><a href="#works-item-details-6" className="works-item-link"><span className="works-item-thumb"><img src="images/shinchan1.png" width="250" height="250" alt=""/></span></a>
             <div id="works-item-details-6" className="popup mfp-hide">
               <figure><img src="images/shin.png" width="750" height="500" alt=""/></figure>
                 <div className="popup-inner">
@@ -135,3 +135,6 @@ class ApplicationsList extends React.Component {
   }
 }
 
+
+
+export default ApplicationsList;

@@ -41,7 +41,7 @@ class ExperienceList extends React.Component {
               <a href="http://www.lvrt.com/" target="_blank">LVRT</a></p>
             </div>
           </div>
-          
+
     <div className="experience-item">
       <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
       <div className="experience-item-inner wow bounceInRight">
@@ -107,3 +107,5 @@ class ExperienceList extends React.Component {
     )
   }
 }
+
+export default ExperienceList;
