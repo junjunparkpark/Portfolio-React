@@ -1,15 +1,9 @@
 import React from 'react';
 
-
 const Home = () => {
   var tableStyle = { 
     height: '100%', 
     marginTop: '-70px'
-  };
-
-  var backgroundGradient = {
-    backgroundImage: 'url(http://www.ritagyam.com/images/background.jpg)',
-    
   };
 
   var h1Style = {
