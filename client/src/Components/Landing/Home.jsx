@@ -8,14 +8,17 @@ const Home = () => {
   };
 
   var backgroundGradient = {
-    backgroundImage: 'url(http://www.ritagyam.com/images/background.jpg)'
+    backgroundImage: 'url(http://www.ritagyam.com/images/background.jpg)',
   };
+
+  var h1Style = {
+    color: 'white'
+  }
 
   return (
     <div>
       <section id="preloader"></section>
-      <section id="home" className="text-center bg-image no-overflow" style={backgroundGradient} data-stellar-background-ratio="0.5">
-
+      <section id="home" className="landing text-center bg-image no-overflow"  data-stellar-background-ratio="0.5">
         <div className="container text-center">
           <div className="fullscreen inline-block">
             <div className="table" style={tableStyle}>
@@ -25,7 +28,7 @@ const Home = () => {
                   <img src="https://lh3.googleusercontent.com/-L-zBolXGOvU/AAAAAAAAAAI/AAAAAAAAP_Q/ahJepmwLhQ0/s120-p-rw-no/photo.jpg" className="img-responsive" alt="#"/>
                 </div>
 
-                <h1 className="heavy text-uppercase home__name">jun park</h1>
+                <h1 className="wow zoomIn heavy text-uppercase home__name" style={h1Style}>jun park</h1>
 
                 <span className="text-uppercase small home__profession">designer / developer / engineer</span>
 

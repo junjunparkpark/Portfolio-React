@@ -35,6 +35,12 @@
 
 /*	#MAIN TITLE
 /* ======================= */
+.landing {
+	background: linear-gradient(
+											rgba(20,20,20, .7), 
+											rgba(20,20,20, .7)),
+											url(../media/images/background.jpg);
+	}
 
 @media (min-width: 992px) 
 {
