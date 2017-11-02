@@ -1505,6 +1505,12 @@ html[style*='margin-right'] .main-nav {
   margin: 0 0 15px;
 }
 
+.date span {
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+}
+
 .experience {
   position: relative;
 }

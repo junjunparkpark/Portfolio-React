@@ -25,9 +25,10 @@ class ExperienceList extends React.Component {
           <div className="experience-item">
             <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
             <div className="experience-item-inner wow bounceInRight">
-                  <div className="date">Hacker-In-Residence (Software Engineering Fellowship)</div>
+                  <div className="date"><span>Hacker-In-Residence.</span></div>
               <h3>July 2017 - Present</h3>
               <p>
+                Software Engineering Fellowship<br/>
                 Accommodated mentorship to engineering teams through code review, debugging, and architecture design.<br/>
                 Provided individualized instruction on topics including but not limited to computer science fundamentals, Javascript frameworks, and general back-end architecture.<br/>
                 Conducted mock software engineering technical interviews for students and alumni. 
@@ -38,7 +39,7 @@ class ExperienceList extends React.Component {
           <div className="experience-item">
             <div className="icon-b wow bounceIn"><i className="fa fa-mortar-board"></i></div>
             <div className="experience-item-inner wow bounceInRight">
-              <div className="date">Hack Reactor</div>
+              <div className="date"><span>Hack Reactor</span></div>
               <h3>May 2017 - July 2017</h3>
               <p>
                 12 week software engineering program.<br/>
@@ -51,7 +52,7 @@ class ExperienceList extends React.Component {
           <div className="experience-item">
             <div className="icon-b wow bounceIn"><i className="fa fa-mortar-board"></i></div>
             <div className="experience-item-inner wow bounceInLeft">
-              <div className="date">Codify Academy</div>
+              <div className="date"><span>Codify Academy</span></div>
               <h3>November 2016 - April 2017</h3>
               <p>
               Web Development coding bootcamp in San Francisco, California.<br/>
@@ -63,7 +64,7 @@ class ExperienceList extends React.Component {
           <div className="experience-item">
             <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
             <div className="experience-item-inner wow bounceInRight">
-              <div className="date">BitSigma, LLC</div>
+              <div className="date"><span>BitSigma, LLC</span></div>
               <h3>June 2014 - January 2015</h3>
               <p>
                 Bitcoin mining startup in Denver, Colorado.<br/>
@@ -76,7 +77,7 @@ class ExperienceList extends React.Component {
           <div className="experience-item">
             <div className="icon-b wow bounceIn"><i className="fa fa-briefcase"></i></div>
             <div className="experience-item-inner wow bounceInLeft">
-              <div className="date">Northwestern Mutual</div>
+              <div className="date"><span>Northwestern Mutual</span></div>
               <h3>April 2014 - June 2014</h3>
               <p>
                 College Financial Representative.<br/>
@@ -88,7 +89,7 @@ class ExperienceList extends React.Component {
           <div className="experience-item">
             <div className="icon-b wow bounceIn"><i className="fa fa-mortar-board"></i></div>
             <div className="experience-item-inner wow bounceInRight">
-              <div className="date">University of Denver</div>
+              <div className="date"><span>University of Denver</span></div>
               <h3>August 2011 - November 2014</h3>
               <p>
                 Bachelor of Science in Finance and Business Administration (Incomplete) <br/>
