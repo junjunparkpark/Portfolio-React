@@ -6,6 +6,7 @@ import ApplicationsList from './Components/Landing/ApplicationsList.jsx';
 import ExperienceList from './Components/Landing/ExperienceList.jsx';
 import Skills from './Components/Landing/Skills.jsx';
 import About from './Components/Landing/About.jsx';
+import Footer from './Components/Landing/Footer.jsx';
 
 const Main = () => {
   return (
@@ -15,6 +16,7 @@ const Main = () => {
       <Skills/>
       <ApplicationsList/>
       <ExperienceList/>
+      <Footer/>
     </div>
   );
 };

@@ -22,12 +22,6 @@ class ApplicationsList extends React.Component {
               <div className="separator"></div>
             </header>
 
-            <ul className="filter">
-              <li data-group="all" className="active">All</li>
-              <li data-group="web">sites</li>
-              <li data-group="illustration">apps</li>
-            </ul>
-
             <ul className="works">
               {
                 this.state.applications.map(app => <ApplicationsListItem appData={app} />)
