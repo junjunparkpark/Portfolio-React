@@ -146,6 +146,7 @@ a .fa {
   -webkit-animation: updown .8s linear 1s infinite alternate; /* Chrome, Safari, Opera */
    animation: updown .5s linear 1s infinite alternate;
 }
+
 blockquote {
   margin: 0 0 30px;
   padding: 30px 100px;
@@ -1203,7 +1204,7 @@ html[style*='margin-right'] .main-nav {
   line-height: 70px;
   text-align: center;
   color: #fff;
-  padding-top:12px;
+  padding-top:0px;
 }
 .icon-b {
   position: relative;
@@ -1216,6 +1217,11 @@ html[style*='margin-right'] .main-nav {
   font-size: 1.4285714286em;
   line-height: 70px;
   text-align: center;
+  color: #fff;
+}
+
+.icon-b h3{
+  margin-top: 12px;
   color: #fff;
 }
 

@@ -36,8 +36,8 @@ const Skills = (props) => {
                         <h3>Bootstrap</h3>
                       </div>
                       <div class="icon-b new">
-                        <div class="icons"><img src="media/images/gi.png" alt="github" title="github" width="30" height="30"/></div>
-                          <h3>Github</h3>
+                        <div class="icons"><img src="media/images/react.png" alt="react" title="react" width="30" height="30"/></div>
+                          <h3>React</h3>
                         </div>
 
                         <div class="icon-b new">
