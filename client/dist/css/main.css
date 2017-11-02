@@ -1325,6 +1325,10 @@ html[style*='margin-right'] .main-nav {
   font-weight: bold;
 }
 
+.heading .black-background h2 {
+  color: #fff;
+}
+
 .heading .separator {
   margin-top: 0;
   margin-bottom: 0;

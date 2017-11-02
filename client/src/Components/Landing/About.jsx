@@ -2,31 +2,30 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" class="section section-bg-light section-top-rise section-bottom-rise">
-      <div class="section-inner">
+    <section id="about" className="section section-bg-light section-top-rise section-bottom-rise">
+      <div className="section-inner">
 
-        <div class="container">
+        <div className="container">
 
-          <header class="heading">
+          <header className="heading">
             <h2>About</h2>
-            <div class="separator"></div>
+            <div className="separator"></div>
           </header>
 
-          <div class="row">
-            <div class="col span_4 center">
-              <div class="site-photo"><img src="images/new-profile-pic.png" width="250" height="250" alt="Photo" class="photo"/></div>
+          <div className="row">
+            <div className="col span_4 center">
+              <div className="site-photo"><img src="media/images/junpark2.jpg" width="250" height="250" alt="Photo" className="photo"/></div>
               </div>
-              <div class="col span_8">
-                <p>I am a Frontend Web Developer motivated to combine the art of design with the art of programming. I am obsessed (borderline compulsive, actually) about making user interfaces look right and work right. I dig the science of user experience and have opinions.
-              <p>Want a look at my full resume?
-					<a href="assets/Resume.pdf" target="_blank">Click here!</a>
-                  </p>
-                  Additionally find out more on:
+              <div className="col span_8">
+                <p>I am a software engineer with experience in creating intuitive user interfaces with modern web technologies, implementing REST API's on the server, creating scalable database solutions, and deploying to the cloud with Amazon Web Services.</p>
+                <p>Want a look at my full resume? <a href="assets/Resume.pdf" target="_blank">Click here!</a></p>
+                
+                <p>Find out more:
          			  </p>
-                <ul class="social-nav">
-                  <li><a href="https://github.com/ritagya" target="_blank"><i class="fa fa-github"></i></a></li>
-                  <li><a href="https://www.linkedin.com/in/ritagya-meharishi-a51b57ab" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                  <li><a href="https://www.instagram.com/ritagyamehrish/?hl=en" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                <ul className="social-nav">
+                  <li><a href="https://github.com/junjunparkpark" target="_blank"><i className="fa fa-github"></i></a></li>
+                  <li><a href="https://www.linkedin.com/in/junjunparkpark" target="_blank"><i className="fa fa-linkedin"></i></a></li>
+                  <li><a href="https://www.instagram.com/junjunparkpark" target="_blank"><i className="fa fa-instagram"></i></a></li>
                 </ul>
               </div>
             </div>
