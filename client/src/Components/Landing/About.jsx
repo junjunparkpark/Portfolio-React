@@ -18,7 +18,7 @@ const About = () => {
               </div>
               <div className="col span_8">
                 <p>I am a software engineer with experience in creating intuitive user interfaces with modern web technologies, implementing REST API's on the server, creating scalable database solutions, and deploying to the cloud with Amazon Web Services.</p>
-                <p>Want a look at my full resume? <a href="https://docs.google.com/document/d/1wiadi8anQxIhoXRX5h5gqPi3m3tigayRcSdWf7_FJ94/edit?usp=sharing" target="_blank">Click here.</a></p>
+                <p>Want a look at my full resume? <a href="https://docs.google.com/document/d/1baLJVM0a3VFyv1ZDGh8Yi2etKRhl2A6pCwn8AJB1ehU/edit?usp=sharing" target="_blank">Click here.</a></p>
                 
                 <p>Find out more:</p>
                 <ul className="social-nav">

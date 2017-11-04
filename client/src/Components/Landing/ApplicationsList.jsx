@@ -47,7 +47,7 @@ class ApplicationsList extends React.Component {
                   <div className="popup-inner">
                     <h3>ToadTryp</h3>
                     <p>An full-stack web application created where you can book a road trip with users traveling to all parts of the country. </p>
-                    <p>Tech Stack: React, Semantic UI, Node, Express, MySQL, Bookshelf ORM, Google Oauth, Heroku Deployment.
+                    <p>Tech Stack: React, Semantic UI, Node, Express, MySQL, Bookshelf ORM, Google Oauth, Heroku Deployment.</p>
                     <div className="center"><a href="" target="_blank" className="btn">View site</a></div>
                   </div>
                 </div>
