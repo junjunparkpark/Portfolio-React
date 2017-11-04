@@ -61,7 +61,8 @@ class ApplicationsList extends React.Component {
                   <figure><img src="" width="750" height="500" alt="" /></figure>
                   <div className="popup-inner">
                     <h3>Yelp Historian</h3>
-                    <p>An app created with Javascript where you can get a reading for your characteristics by entering your Chinese animal sign.</p>
+                    <p>Full-stack application utilizing the Yelp API to keep a historical record of restaurants and their ratings.</p>
+                    <p>Tech Stack: AngularJS, Node, Express, MongoDB, Mongoose ODM.</p>
                     <div className="center"><a href="" target="_blank" className="btn">View site</a></div>
                   </div>
                 </div>
