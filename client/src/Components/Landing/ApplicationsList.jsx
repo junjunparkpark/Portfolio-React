@@ -30,8 +30,9 @@ class ApplicationsList extends React.Component {
                 <div id="" className="popup mfp-hide">
                   <figure><img src="" width="750" height="500" alt="" /></figure>
                   <div className="popup-inner">
-                    <h3>Chinese Zodiac</h3>
-                    <p>An app created with Javascript where you can get a reading for your characteristics by entering your Chinese animal sign.</p>
+                    <h3>CodeSmash</h3>
+                    <p>Real-time collaborative Javascript coding environment with video chat.</p>
+                    <p>Tech Stack: React, Bootstrap UI, Node, Express, Redis, MongoDB, Mongoose ODM, Google Oauth, Heroku deployment.</p>
                     <div className="center"><a href="" target="_blank" className="btn">View site</a></div>
                   </div>
                 </div>
@@ -44,8 +45,9 @@ class ApplicationsList extends React.Component {
                 <div id="" className="popup mfp-hide">
                   <figure><img src="" width="750" height="500" alt="" /></figure>
                   <div className="popup-inner">
-                    <h3>Chinese Zodiac</h3>
-                    <p>An app created with Javascript where you can get a reading for your characteristics by entering your Chinese animal sign.</p>
+                    <h3>ToadTryp</h3>
+                    <p>An full-stack web application created where you can book a road trip with users traveling to all parts of the country. </p>
+                    <p>Tech Stack: React, Semantic UI, Node, Express, MySQL, Bookshelf ORM, Google Oauth, Heroku Deployment.
                     <div className="center"><a href="" target="_blank" className="btn">View site</a></div>
                   </div>
                 </div>
@@ -58,7 +60,7 @@ class ApplicationsList extends React.Component {
                 <div id="" className="popup mfp-hide">
                   <figure><img src="" width="750" height="500" alt="" /></figure>
                   <div className="popup-inner">
-                    <h3>Chinese Zodiac</h3>
+                    <h3>Yelp Historian</h3>
                     <p>An app created with Javascript where you can get a reading for your characteristics by entering your Chinese animal sign.</p>
                     <div className="center"><a href="" target="_blank" className="btn">View site</a></div>
                   </div>
